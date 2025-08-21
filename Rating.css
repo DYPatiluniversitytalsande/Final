@@ -1,0 +1,16 @@
+/* Rating.css */
+.rating {
+  display: flex;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 22px;
+  color: #ccc; /* Empty star */
+  transition: color 0.2s ease;
+}
+
+.star.filled {
+  color: #ffb400; /* Filled star */
+}

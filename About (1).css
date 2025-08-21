@@ -1,0 +1,81 @@
+.travel-section {
+  display: flex;
+  padding: 4rem;
+  background-color: #fdf1e7;
+  gap: 3rem;
+  font-family: 'Arial', sans-serif;
+  width: 1330px;
+}
+
+.travel-image img {
+  width: 400px;
+  height: auto;
+}
+
+.travel-content {
+  max-width: 600px;
+}
+
+.about-btn {
+  background-color: #ff5722;
+  color:white;
+  border: grey;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-left: 90px;
+}
+
+.travel-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 90px;
+}
+
+.travel-content p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  margin-right: 2px;
+  margin-left: 90px;
+}
+
+.video-box img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  margin-left: 90px;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+  margin-left: 90px;
+}
+
+.features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ff5722;
+  font-weight: 500;
+  margin-left: 90px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  margin-left: 90px;
+}
+
+.user-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 90px;
+}

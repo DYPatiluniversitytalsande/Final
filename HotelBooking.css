@@ -1,0 +1,83 @@
+.hotel-booking-wrapper {
+  background: url("https://images.unsplash.com/photo-1551887373-6d79e35d6b1a") no-repeat center center/cover;
+  min-height: 100vh; /* full screen height */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  padding: 20px;
+  margin-left: 150px;
+
+}
+
+/* Booking form container */
+.hotel-booking {
+  max-width: 420px;
+  width: 100%;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  backdrop-filter: blur(4px);
+}
+
+.hotel-booking h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.hotel-booking p {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.booking-form label {
+  font-weight: bold;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Button styling */
+.book-btn {
+  width: 100%;
+  background: orange;
+  border: none;
+  color: white;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+  background: darkorange;
+}
+
+.success-message {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: green;
+  background: #e6ffe6;
+  padding: 15px;
+  border-radius: 8px;
+}

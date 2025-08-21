@@ -1,0 +1,82 @@
+.destinations-section {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.text-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.choose-button {
+  background: #ffe9dd;
+  color: #ff7a00;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 999px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-content h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  max-width: 600px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.package-button {
+  background: #ff5e00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 30px;
+}
+
+.destination-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 25px;
+  height: 300px;
+}
+
+.destination-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 50px;
+}
+.destination-card img:hover
+{
+    transition: scale(0.13);
+    cursor: pointer;
+    background-color: beige;
+}
+
+.destination-name {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 5px black;
+}

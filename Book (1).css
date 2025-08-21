@@ -1,0 +1,74 @@
+/* Full background image */
+.book-bg {
+  background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e")
+    no-repeat center center/cover;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+}
+
+/* Booking container */
+.book-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Heading */
+.book-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Form styling */
+.book-form input,
+.book-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.book-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+/* Button styling */
+.book-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #ff5722;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.book-form button:hover {
+  background: #e64a19;
+}
+
+/* Submitted data display */
+.submitted-data {
+  margin-top: 20px;
+  text-align: left;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+}

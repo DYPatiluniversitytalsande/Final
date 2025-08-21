@@ -1,0 +1,88 @@
+/* Center the whole booking UI */
+.bus-booking {
+  max-width: 400px;
+  margin: 50px auto; /* centers horizontally */
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+}
+
+/* Heading */
+.bus-booking h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.bus-booking p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Seats grid layout */
+.seats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Seat button styles */
+.seat {
+  background: white;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.seat:hover {
+  background: #f0f0f0;
+}
+
+.seat.selected {
+  background: green;
+  color: white;
+  border-color: darkgreen;
+}
+
+.seat.booked {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Summary section */
+.summary p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Booking button */
+.book-btn {
+  width: 100%;
+  background: orange;
+  border: none;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.book-btn:hover:not(:disabled) {
+  background: darkorange;
+}

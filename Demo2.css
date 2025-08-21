@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.package-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 350px;
+}
+
+.package-card {
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.package-image {
+    margin-top: 10px;
+  width: 350px;
+  height: 440px;
+  object-fit: cover;
+  border: 10px;
+  border-radius: 60px;
+}
+
+.package-details {
+  flex: 1;
+  padding: 15px 20px;
+}
+
+.region {
+  display: inline-block;
+  background: #ffe6d6;
+  color: #ff5a1f;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.package-details h3 {
+  margin: 8px 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.duration {
+  font-size: 14px;
+  color: #777;
+}
+
+.icons {
+  margin: 8px 0;
+  font-size: 18px;
+  color: #ff5a1f;
+  display: flex;
+  gap: 10px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px 0;
+  color: #333;
+}
+
+.note {
+  font-size: 13px;
+  color: #888;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rating {
+  color: #ffb400;
+}
+
+.start-btn {
+  background: #ff5a1f;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.start-btn:hover {
+  background: #e24b14;
+}

@@ -1,0 +1,98 @@
+.body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 150px; */
+  margin: auto;
+  margin-right: 200px;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%; /* full width */
+  background: url('/IMG/img1.png') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* left align text */
+  color: white;
+  text-align: left;
+  padding: 0 50px; /* adjust padding as needed */
+  box-sizing: border-box; /* include padding in width */
+  overflow: hidden;
+  max-width: 100vw; /* ensure it never exceeds viewport */
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+
+.luxury-tag {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.hero-buttons button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  margin-right: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-btn {
+  background-color:orangered;
+  color: white;
+}
+
+.video-btn {
+  background-color: rgba(255,255,255,0.3);
+  color: white;
+}
+
+.side-buttons {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buy-now, .customize {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.customize {
+  background-color: black;
+}

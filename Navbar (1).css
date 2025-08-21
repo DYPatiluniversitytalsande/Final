@@ -1,0 +1,68 @@
+/* Navbar container */
+.navbar {
+  width: 100%;
+  max-width: 1300px; 
+  margin-left: 0px;    /* ✅ Keeps width consistent */
+  margin: 0 auto;        /* ✅ Centers it */
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;       /* ✅ Navbar always visible */
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6); /* Transparent black */
+  z-index: 100;
+  border-radius: 0 0 15px 15px;
+  backdrop-filter: blur(6px); /* Glass effect */
+}
+
+/* Logo text */
+.logo {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: orange;
+}
+
+/* Plan Trip Button */
+.plan-btn {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.plan-btn:hover {
+  background-color: darkorange;
+}
+.nav-links li a.active {
+  color: orange;          /* Active link color */
+  font-weight: bold;       /* Optional: make it stand out */
+  border-bottom: 2px solid orange; /* Optional underline effect */
+}
+
